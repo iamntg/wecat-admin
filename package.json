@@ -7,11 +7,15 @@
   },
   "dependencies": {
     "antd": "^2.6.4",
+    "css-loader": "^0.26.1",
     "lodash": "^4.17.4",
+    "node-sass": "^4.5.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
