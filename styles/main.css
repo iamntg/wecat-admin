@@ -1,0 +1,15 @@
+@import '~antd/dist/antd.css';
+
+
+.login-form-content {
+	background: #fff;
+	margin: 10% 0;
+}
+
+.login-form-layout{
+	background: #fff;	
+}
+
+.login-form-button {
+	width: 100%;
+}
