@@ -1,14 +1,29 @@
 import React, { Component } from 'react';
+import { Router, Route, Link, browserHistory } from 'react-router';
+import { Layout } from 'antd';
+
+import Nav from '../containers/Nav'
 
 import '../../styles/main.css';
 
 
+const { 
+    Header, 
+    Content, 
+    Footer, 
+    Sider 
+} = Layout;
+
 class Dashboard extends Component {
   render() {
     return (
-    	<div>
-            <p>hello world</p>
-        </div>
+    	<Layout>
+            <Sider>
+                <Nav/>
+            </Sider>
+            <Layout>
+            </Layout>
+        </Layout>
     );
   }
 }

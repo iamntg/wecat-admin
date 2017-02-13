@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import { Row, Col, Layout, Form, Icon, Input, Button, Checkbox } from 'antd';
+import { Row, Col, Layout, Form, Icon, Input, Button } from 'antd';
 
 import '../../styles/main.css';
 
 
 const FormItem = Form.Item;
 const { 
-	Header, 
-	Content, 
-	Footer, 
-	Sider 
+	Content
 } = Layout;
 
 
