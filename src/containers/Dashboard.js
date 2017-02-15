@@ -21,7 +21,8 @@ class Dashboard extends Component {
             <Sider>
                 <Nav/>
             </Sider>
-            <Layout>
+            <Layout className="full-height-container">
+                {this.props.children}
             </Layout>
         </Layout>
     );

@@ -1,5 +1,10 @@
 @import '~antd/dist/antd.css';
 
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
 
 .login-form-content {
 	background: #fff;
@@ -12,4 +17,9 @@
 
 .login-form-button {
 	width: 100%;
+}
+
+
+.full-height-container {
+	height: 100vh;
 }
